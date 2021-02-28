@@ -16,6 +16,8 @@ Prerequisites:
 - Ensure that there are no spaces in your username!
  
 Usage:
+```bash
     $ git clone git@github.com:maxkramer/dotfiles.git ~/.dotfiles
     $ cd ~/.dotfiles
     $ sh install.sh
+```

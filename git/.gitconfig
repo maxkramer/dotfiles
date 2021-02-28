@@ -1,11 +1,11 @@
 [user]
 	name = Max Kramer
-	email = max@maxkramer.co
+	email = max@kramer.so
 	signingkey = 5F35CD6ED6CA399F
 [github]
 	user = maxkramer
 [core]
-	excludesfile = /Users/kramer_max/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	editor = nvim
 [alias]
 	co = checkout
@@ -28,12 +28,6 @@
 [mergetool "diffmerge"]
 	trustExitCode = true
 	cmd = /Applications/DiffMerge.app/Contents/Resources/diffmerge.sh  --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
 [diff]
 	tool = diffmerge
 [difftool "diffmerge"]
@@ -46,5 +40,3 @@
 	gpgsign = true
 [gpg]
 	program = /usr/local/bin/gpg
-[init]
-	templateDir = /Users/kramermax/.git-template

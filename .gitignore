@@ -37,7 +37,6 @@ Package Control.cache/
 Package Control.ca-certs/
 
 zsh/.zsh/secrets.zsh
-zsh/.zsh/environment.zsh
 
 # GCloud config (includes secrets and logs)
 config/.config/gcloud/

@@ -1,0 +1,50 @@
+[user]
+	name = Max Kramer
+	email = max@maxkramer.co
+	signingkey = 5F35CD6ED6CA399F
+[github]
+	user = maxkramer
+[core]
+	excludesfile = /Users/kramer_max/.gitignore_global
+	editor = nvim
+[alias]
+	co = checkout
+	po = push -u origin HEAD
+	cam = commit -a -m
+	c = commit
+	s = status -s -u
+	l = log --oneline --decorate
+	listconf = config --global --list
+	lgb = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%n' --abbrev-commit --date=relative --branches
+[diff]
+[merge]
+[push]
+	default = current
+[difftool]
+	prompt = false
+[mergetool]
+	prompt = false
+	keepBackup = false
+[mergetool "diffmerge"]
+	trustExitCode = true
+	cmd = /Applications/DiffMerge.app/Contents/Resources/diffmerge.sh  --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[diff]
+	tool = diffmerge
+[difftool "diffmerge"]
+	cmd = /usr/local/bin/diffmerge \"$LOCAL\" \"$REMOTE\"
+[merge]
+	tool = diffmerge
+[http]
+	postBuffer = 2M
+[commit]
+	gpgsign = true
+[gpg]
+	program = /usr/local/bin/gpg
+[init]
+	templateDir = /Users/kramermax/.git-template

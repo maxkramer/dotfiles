@@ -1,0 +1,19 @@
+{
+  "browsers": [
+    {
+      "name": "chrome",
+      "re": {},
+      "type": "chrome",
+      "profile": "/Users/kramer_max/.config/browser-launcher2/chrome-63.0.3239.132_c1419ffb",
+      "command": "/Applications/Google Chrome.app",
+      "version": "63.0.3239.132"
+    },
+    {
+      "name": "safari",
+      "type": "safari",
+      "profile": false,
+      "command": "/Applications/Safari.app",
+      "version": "11.0.2"
+    }
+  ]
+}

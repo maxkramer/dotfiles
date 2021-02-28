@@ -1,0 +1,35 @@
+
+** 2017-02-20 23:58:21.989048 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+Gocode pkg: "github.com/maxkramer/goimmo"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/go/pkg/darwin_amd64:/Users/Max/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/go", GOPATH:"/Users/Max/go", InstallSuffix:""}
+Gocode pkg: "github.com/maxkramer/goimmo"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/go/pkg/darwin_amd64:/Users/Max/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/go", GOPATH:"/Users/Max/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/go/pkg/darwin_amd64:/Users/Max/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/go", GOPATH:"/Users/Max/go", InstallSuffix:""}
+
+** 2017-05-27 01:44:27.751457 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r17.03.05-1_go?.exe', 'disposa.blue/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+go: cannot find GOROOT directory: /usr/local/go
+`
+exception: `None`
+--------------------------------
+
+** 2017-05-27 14:57:22.842418 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r17.03.05-1_go?.exe', 'disposa.blue/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+go: cannot find GOROOT directory: /usr/local/go
+`
+exception: `None`
+--------------------------------

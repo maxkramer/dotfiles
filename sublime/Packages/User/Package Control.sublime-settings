@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Dockerfile Syntax Highlighting",
+		"Focus",
+		"GitGutter",
+		"Homebrew-formula-syntax",
+		"JSONLint",
+		"Make File Executable",
+		"Origami",
+		"Package Control",
+		"Pretty JSON",
+		"Pretty YAML",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-ruby",
+		"Swift",
+		"Terraform",
+		"Theme - Spacegray",
+		"Travis YML Lint"
+	]
+}

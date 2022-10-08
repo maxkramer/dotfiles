@@ -40,6 +40,7 @@ zsh/.zsh/secrets.zsh
 
 # GCloud config (includes secrets and logs)
 config/.config/gcloud/
+config/.config/configstore/
 
 # SSH Keys
 ssh/.ssh/id_*

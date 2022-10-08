@@ -1,7 +1,7 @@
 [user]
 	name = Max Kramer
 	email = max@kramer.so
-	signingkey = 5F35CD6ED6CA399F
+	signingkey = 73EB696E33C4384C
 [github]
 	user = maxkramer
 [core]
@@ -39,4 +39,8 @@
 [commit]
 	gpgsign = true
 [gpg]
-	program = /usr/local/bin/gpg
+	program = /opt/homebrew/bin/gpg
+[pull]
+	ff = only
+[init]
+	templateDir = /Users/max/.git-template

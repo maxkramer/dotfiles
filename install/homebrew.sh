@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 echo Installing homebrew
-$(which ruby) -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# $(which ruby) -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 echo 'Verifying Homebrew install'
 brew doctor

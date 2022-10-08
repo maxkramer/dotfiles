@@ -51,7 +51,7 @@ if ! zgen saved; then
   zgen save
 fi
 
-[ -s "$HOME/.jabba/jabba.sh" ] && source "$HOME/.jabba/jabba.sh" && jabba use adopt@1.11.0-9
+[ -s "$HOME/.jabba/jabba.sh" ] && source "$HOME/.jabba/jabba.sh" && jabba use 17.0.3-ms-openjdk
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
@@ -65,5 +65,6 @@ export PATH="/usr/local/sbin:$PATH"
 
 # Add yarn binaries to path
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+export GPG_TTY=$(tty)
 fpath=(/usr/local/share/zsh-completions $fpath)
 

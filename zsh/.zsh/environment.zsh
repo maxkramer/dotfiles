@@ -15,6 +15,7 @@ export LESSCHARSET=utf-8
 export RUBYOPT=-W:no-deprecated
 
 export GOPATH=$HOME/go
+export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
 export PATH="$PATH:$HOME/.rvm/bin"
 export PATH="$(python3 -m site --user-base)/bin:$PATH"
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
